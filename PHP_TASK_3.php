@@ -1,3 +1,4 @@
+<?php
 function isClear($var){
 
     $var = trim(stripslashes(htmlspecialchars($var))); 
@@ -53,10 +54,8 @@ function isClear($var){
     }
 
 
-
-
-
 ?>
+
 <form method="post" action="<?php htmlspecialchars($_SERVER["PHP_SELF"]);?>">
   <div class="form-group">
     <label>Name</label>
